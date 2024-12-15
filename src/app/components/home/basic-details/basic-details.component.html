@@ -1,0 +1,62 @@
+<form action="" class="border shadow-xl p-4 max-w-[80%] mx-auto rounded-xl">
+  <!-- Header section -->
+  <div class="flex justify-between rounded-t-3xl p-5 gap-3">
+    <div class="w-3/4 flex flex-col">
+      <label for="yourName" class="mb-2">Your Name</label>
+      <input
+        type="text"
+        name="yourName"
+        id="yourName"
+        class="border outline-none mb-3 p-2"
+        placeholder="Enter Your Name"
+      />
+      <label for="designation" class="mb-2">Designation</label>
+      <input
+        type="text"
+        name="designation"
+        id="designation"
+        class="outline-none mb-3 border p-2"
+        placeholder="Your designation"
+      />
+      <label for="yourBrief" class="mb-2">Enter Your Brief</label>
+      <textarea
+        name="yourBrief"
+        id="yourBrief"
+        class="outline-none p-2 border"
+        placeholder="Enter your brief here"
+      ></textarea>
+      <label for="email" class="mb-2">Email</label>
+      <input
+        type="text"
+        name="email"
+        id="email"
+        class="outline-none mb-3 border p-2"
+        placeholder="Your email"
+      />
+      <label for="mobile" class="mb-2">Mobile</label>
+      <input
+        type="text"
+        name="mobile"
+        id="mobile"
+        class="outline-none mb-3 border p-2"
+        placeholder="Your mobile"
+      />
+      <label for="address" class="mb-2">Address</label>
+      <input
+        type="text"
+        name="address"
+        id="address"
+        class="outline-none mb-3 border p-2"
+        placeholder="Your address"
+      />
+    </div>
+    <div class="1/4 flex flex-col justify-between items-end">
+      <div class="border-4 relative w-48 h-48 mx-auto">
+        <label for="profilePic" class="absolute w-full h-full">
+          <input type="file" name="profilePic" id="profilePic" class="hidden" />
+        </label>
+      </div>
+      <button class="bg-blue-600 text-white p-3 w-28">Next</button>
+    </div>
+  </div>
+</form>
