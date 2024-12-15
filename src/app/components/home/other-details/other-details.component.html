@@ -1,1 +1,33 @@
-<p>other-details works!</p>
+<form action="" class="border shadow-xl p-4 max-w-[80%] mx-auto rounded-xl">
+  <!-- Header section -->
+  <div class="flex justify-between rounded-t-3xl p-5 gap-3">
+    <div class="w-3/4 flex flex-col">
+      <label for="sectionTitle" class="mb-2 text-2xl"
+        >Enter section title</label
+      >
+      <input
+        type="text"
+        name="sectionTitle"
+        id="sectionTitle"
+        class="border outline-none mb-10 p-2"
+        placeholder="Enter Your Name"
+      />
+      <label class="mb-2 text-2xl">Enter details</label>
+      <angular-editor [config]="editorConfig"></angular-editor>
+    </div>
+    <div class="1/4 flex flex-col justify-between items-end">
+      <div class="flex gap-2">
+        <button
+          class="bg-blue-600 text-white p-3 rounded-md shadow-gray-500 shadow-md"
+        >
+          Add Section
+        </button>
+      </div>
+      <button
+        class="bg-blue-600 text-white p-3 w-28 rounded-md shadow-gray-500 shadow-md"
+      >
+        Next
+      </button>
+    </div>
+  </div>
+</form>
